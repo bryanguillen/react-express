@@ -11,5 +11,4 @@ app.get('/', (req, res) => {
 
 app.listen(3001, () => {
 	console.log('Your app is listening on localhost:3001');
-	console.log(data);
 })
