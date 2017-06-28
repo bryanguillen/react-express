@@ -5,7 +5,7 @@ const { data } = require('./sampleData');
 
 app.use(morgan('common'));
 
-app.get('/', (req, res) => {
+app.get('/say-hello', (req, res) => {
 	res.status(200).json(data);
 })
 
