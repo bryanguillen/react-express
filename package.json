@@ -1,0 +1,19 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "Small demo for bgoncode.com.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Bryan G",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
+}
